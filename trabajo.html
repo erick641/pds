@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO DE PDS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   
+    <div id='container'> 
+        <div class="signal">SEÑAL EN EL TIEMPO</div>
+        <div class="espectro">ESPECTRO DE LA SEÑAL</div>
+        <div class="signalf">SEÑAL FILTRADA</div>
+        <div class="espectrof">ESPECTRO FILTRADO</div>
+        <div class="escudo">UNIVERSIDAD NACIONAL MAYOR 
+            DE SAN MARCOS</div>
+        <img src="escudo.png" class="imagen" alt="">
+        <canvas id="canvas1"></canvas>
+        <canvas id="canvas2"></canvas>
+        <canvas id="osciloscopio"></canvas>
+        <button id="filterButton">Aplicar Filtro</button>
+        <canvas id="waveformCanvas"></canvas>
+        <canvas id="spectrumCanvas"></canvas>
+
+        <audio id="audio1"controls></audio>
+        <input type='file' id='fileupload' accept='audio/*' />
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

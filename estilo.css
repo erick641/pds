@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    height: 120%;
+    overflow: hidden;
+}
+
+#osciloscopio {
+    position: absolute;
+    top: -30;
+    left: 0;
+    width: 50%;
+    height: 40%;
+    margin: 150px 5px;
+}
+#canvas1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 95%;
+}
+#audio1 {
+    width: 30%;
+    margin: -140px 400px;
+    display: block;
+}
+#fileupload{
+    position: absolute;
+    top: 30px;
+    color: white;
+    z-index: 100;
+}
+
+#filterButton{
+    position: absolute;
+    margin: -128px 310px;
+    color: black;
+    display: block;
+}
+
+#waveformCanvas {
+    position: absolute;
+    top: -30;
+    left: 45%;
+    width: 50%;
+    height: 40%;
+    margin: 150px 100px;
+}
+
+#spectrumCanvas {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 95%;
+
+}
+
+.signal{
+position: absolute;
+top: 100px;
+left: 15%;
+color: white;
+font-size: 20px;
+}
+
+.espectro{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    color: white;
+    font-size: 20px;
+ }
+
+ .signalf{
+    position: absolute;
+    top: 100px;
+    left: 70%;
+    color: white;
+    font-size: 20px;
+    }
+    
+    .espectrof{
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        color: white;
+        font-size: 20px;
+     }
+
+ .escudo{
+        position: absolute;
+        top: 5%;
+        left: 61%;
+        color: white;
+        font-size: 15px;
+     }
+
+ .imagen{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    top: 0%;
+    left: 90%;
+ }
